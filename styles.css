@@ -1,0 +1,26 @@
+p {
+    display: inline-block;
+    width: 20%;
+}
+
+.user-form {
+    padding: 20px;
+}
+
+.field, .field-name {
+    margin-bottom: 10px;
+}
+
+.field-name {
+    vertical-align: top;
+}
+
+.selectable-field-container {
+    display: inline-block;
+}
+
+.field-range {
+    width: auto;
+    position: relative;
+    bottom: 5px;
+}

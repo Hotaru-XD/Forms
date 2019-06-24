@@ -1,0 +1,78 @@
+<html>
+    <title>forms</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="zeroing.css" rel="stylesheet" />
+</html>
+<body>
+    <form>
+        <div class="user-form">
+            <div class="field">
+                <label for="login"><p>Login</p></label>
+                <input type="text" id="login" name="login" placeholder="Login" autocomplete="on"/>
+            </div>
+            <div class="field">
+                <label for="password"><p>Password</p></label>
+                <input type="password" id="password" name="password" placeholder="Password"/>
+            </div>
+            <div class="field">
+                <label for="repeat-password"><p>Repeat password</p></label>
+                <input type="password" id="repeat-password" name="repeat-password" placeholder="Repeat password"/>            
+            </div>
+            <div class="field">
+                <label for="phone-number"><p>Phone number</p></label>
+                <input type="tel" name="phone-number" id="phone-number" placeholder="Phone number">
+            </div>
+            <div class="field">
+                <label for="email"><p>Email</p></label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div>
+            <div class="field">
+                <p class="field-name">Sex:</p>
+                <div class="selectable-field-container">
+                    <div class="field">
+                        <input type="radio" id="male" name="sex">
+                        <label for="male"><p>Male</p></label>
+                    </div>
+                    <div class="field">
+                        <input type="radio" id="female" name="sex">
+                        <label for="female"><p>Female</p></label>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <p class="field-name">Skills:</p>
+                <div class="selectable-field-container">
+                    <div class="field">
+                        <input type="checkbox" id="html">
+                        <label for="html"><p>HTML</p></label>
+                    </div>
+                    <div class="field">
+                        <input type="checkbox" id="css">
+                        <label for="css"><p>CSS</p></label>
+                    </div>
+                    <div class="field">
+                        <input type="checkbox" id="javascript">
+                        <label for="javascript"><p>JavaScript</p></label>
+                    </div>
+                </div>
+            </div>
+            <div class="field">
+                <label for="date"><p class="field-name">Choose date</p></label>
+                <input type="datetime" name="dateandtime" name="range" id="date">
+            </div>
+            <div class="field">
+                <label for="age"><p class="field-name">Your age</p></label>
+                <p class="field-range">0</p>
+                <input type="range" name="age" id="age">
+                <p class="field-range">100</p>
+            </div>
+            <div class="field">
+                <input type="file" name="file"  accept="docx,pdf,css,html,javascript">
+            </div>
+            <div class="field">
+                <input type="reset" name="reset">
+                <input type="submit" name="submit">
+            </div>
+        </div>
+    </form>
+</body>
